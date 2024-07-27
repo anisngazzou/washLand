@@ -5,24 +5,30 @@
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="description" content="Entreprise de couverture et toiture sur Montréal,Québec, Pro Esthétique prend en charge tous vos travaux de toiture : entretien et nettoyage du toit, réparation,isolation,Ipsum,charpentes,pose de Velux et pose de tuiles..." >
+  <meta name="description"
+    content="Entreprise de couverture et toiture sur Montréal,Québec, Pro Esthétique prend en charge tous vos travaux de toiture : entretien et nettoyage du toit, réparation,isolation,Ipsum,charpentes,pose de Velux et pose de tuiles...">
 
-  <meta name="keyword" content="Liden,Couverture,étanchéité,Ipsum,Dolren,Travaux du toit,dépannage,couvreur,global couverture">
-  <meta property="og:description" content="Cette page décrit le service de couverture toiture par la société Pro Esthétique , implantée à Montréal,Québec."/>
-  <meta property="og:title" content="Entreprise spécialisée dans la couverture &amp; toiture à Montréal,Québec "/>
-<title>Pro Esthétique - Liden Couverture Ipsum</title>
+  <meta name="keyword"
+    content="Liden,Couverture,étanchéité,Ipsum,Dolren,Travaux du toit,dépannage,couvreur,global couverture">
+  <meta property="og:description"
+    content="Cette page décrit le service de couverture toiture par la société Pro Esthétique , implantée à Montréal,Québec." />
+  <meta property="og:title" content="Entreprise spécialisée dans la couverture &amp; toiture à Montréal,Québec " />
+  <title>Pro Esthétique - Liden Couverture Ipsum</title>
 
   <!-- Favicons -->
   <link href="assets/img/LOL.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link rel="Liden"   href="Services/ServicesToit.html"/>
-    <link rel="Dolren" href="Services/ServicesIsola.html"/>
-    <link rel="Ipsum" href="Services/ServicesZing.html"/>
-    
-    
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="Liden" href="Services/ServicesToit.html" />
+  <link rel="Dolren" href="Services/ServicesIsola.html" />
+  <link rel="Ipsum" href="Services/ServicesZing.html" />
+
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,135 +39,354 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/pricing.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-  .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 2000; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  <style>
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 2000;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+    }
+
+    .cardback {
+      background: #dde9f6 !important;
+
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .checked {
+      color: orange;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .glow-on-hover {
+      width: 220px;
+      height: 50px;
+      border: none;
+      outline: none;
+      top: 12px;
+      color: #fff;
+      background: #111;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 10px;
+    }
+
+    .glow-on-hover:before {
+      content: '';
+      background: linear-gradient(236deg, #687cec, #03a9f4, #3f51b5, #673ab7, #0fe7ea, #002bffc4, #03a9f4, #21f39c, #8bc34a);
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowing 20s linear infinite;
+      opacity: 1;
+      transition: opacity .3s ease-in-out;
+      border-radius: 10px;
+    }
+
+
+    .glow-on-hover:active {
+      background: transparent;
+    }
+
+    .glow-on-hover:active:after {
+      background: transparent;
+    }
+
+    .glow-on-hover:hover:before {
+      opacity: 1;
+    }
+
+
+    .glow-on-hover:after {
+      z-index: -1;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #2196f38f;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+    }
+
+    @keyframes glowing {
+      0% {
+        background-position: 0 0;
+      }
+
+      50% {
+        background-position: 400% 0;
+      }
+
+      100% {
+        background-position: 0 0;
+      }
+    }
+
+    .card-container {
+      position: relative;
+      display: inline-block;
+      border-radius: 10px;
+      overflow: hidden;
+      /* Ensures that the shadow does not overflow the card */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      /* Adds shadow */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      /* Smooth hover effect */
+    }
+
+    .card-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: brightness 0.3s ease;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      /* Smooth brightness effect */
+    }
+
+    .card-container:hover {
+      /* Slightly enlarges the card */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      /* Deepens the shadow */
+    }
+
+    .card-container:hover .card-image {
+      filter: brightness(1.2);
+      /* Brightens the image on hover */
+    }
+  </style>
+  <style>
+    .slider-container {
+      position: relative;
+      width: 100%;
+      padding: 20px;
+      height: 400px;
+      overflow: hidden;
+      border-radius: 20px;
+    }
+
+    .image-x {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .image-x.before {
+      clip-path: inset(0 50% 0 0);
+    }
+
+    .slider {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 1.5px;
+      height: 100%;
+      background: #080808;
+      cursor: ew-resize;
+    }
+
+    .handle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 50px;
+      height: 50px;
+      background: #fffffff4;
+      text-align: center;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+
+
+    }
+    .wrapper {
+  height: 100%;
+  width: 100%;
+position: relative;  
 }
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+.wrapper h1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 888;
+  text-transform: uppercase;
+}
+.wrapper div {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  animation: 4s linear infinite;
+}
+div .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+.wrapper div:nth-child(1) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.wrapper div:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation: animate 10s linear infinite;
+}
+.wrapper div:nth-child(3) {
+  top: 40%;
+  left: 40%;
+  animation: animate 3s linear infinite;
+}
+.wrapper div:nth-child(4) {
+  top: 66%;
+  left: 30%;
+  animation: animate 7s linear infinite;
+}
+.wrapper div:nth-child(5) {
+  top: 90%;
+  left: 10%;
+  animation: animate 9s linear infinite;
+}
+.wrapper div:nth-child(6) {
+  top: 30%;
+  left: 60%;
+  animation: animate 5s linear infinite;
+}
+.wrapper div:nth-child(7) {
+  top: 70%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.wrapper div:nth-child(8) {
+  top: 75%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.wrapper div:nth-child(9) {
+  top: 50%;
+  left: 50%;
+  animation: animate 6s linear infinite;
+}
+.wrapper div:nth-child(10) {
+  top: 45%;
+  left: 20%;
+  animation: animate 10s linear infinite;
+}
+.wrapper div:nth-child(11) {
+  top: 10%;
+  left: 90%;
+  animation: animate 9s linear infinite;
+}
+.wrapper div:nth-child(12) {
+  top: 20%;
+  left: 70%;
+  animation: animate 7s linear infinite;
+}
+.wrapper div:nth-child(13) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.wrapper div:nth-child(14) {
+  top: 60%;
+  left: 5%;
+  animation: animate 6s linear infinite;
+}
+.wrapper div:nth-child(15) {
+  top: 90%;
+  left: 80%;
+  animation: animate 9s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(1.3) translateY(-100px) rotate(360deg);
+  }
 }
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-.checked {
-  color: orange;
-}
+    .handle i {
+      font-size: large;
+      /* Adjust this value to increase or decrease the size of the icons */
+      margin: 5px;
+      color: #000000;
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-.glow-on-hover {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    top: 12px;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
+    }
 
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(236deg, #687cec, #03a9f4, #3f51b5, #673ab7, #0fe7ea, #002bffc4, #03a9f4, #21f39c, #8bc34a);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 1;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-
-.glow-on-hover:active {
-    background: transparent;
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #2196f38f;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-.card-container {
-            position: relative;
-            display: inline-block;
-            border-radius: 10px;
-            overflow: hidden; /* Ensures that the shadow does not overflow the card */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
-            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-        }
-
-        .card-image {
-            display: block;
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            transition: brightness 0.3s ease; /* Smooth brightness effect */
-        }
-
-        .card-container:hover {
-             /* Slightly enlarges the card */
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Deepens the shadow */
-        }
-
-        .card-container:hover .card-image {
-            filter: brightness(1.2); /* Brightens the image on hover */
-        }
-</style>
+    .handle:hover {
+      background-color: white;
+    }
+  </style>
 </head>
+
 <body>
 
   <!-- ======= Header ======= -->
@@ -169,31 +394,32 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><img src="https://placehold.co/60x40?text=Logo" width="auto" alt="logo-Pro Esthétique"></a></h1>
+        <h1 class="text-light"><a href="index.html"><img src="https://placehold.co/60x40?text=Logo" width="auto"
+              alt="logo-Pro Esthétique"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Accueil</a></li>
           <li><a href="index.html#about">A Propos</a></li>
-           <li class="drop-down"><a href="index.html#services">Services</a>
+          <li class="drop-down"><a href="index.html#services">Services</a>
             <ul>
-              <li><a href="Services/ServicesToit.html">Liden</a></li>
-              <li><a href="Services/ServicesRepar.html">Lorem</a></li>
-              <li><a href="Services/ServicesZing.html">Ipsum</a></li>
-              <li><a href="Services/ServicesIsola.html">Dolren</a></li>
-			        <li><a href="Services/ServicesPose.html">Prium melron</a></li>
-			        <li><a  href="index.html#services">Sutium</a></li>
-			        <li><a href="index.html#services">Démoussage et entretien</a></li>
-			        <li><a href="index.html#services">Homim bgd dosgt</a></li>
+              <li><a href="index.html#services">Liden</a></li>
+              <li><a href="index.html#services">Lorem</a></li>
+              <li><a href="index.html#services">Ipsum</a></li>
+              <li><a href="index.html#services">Dolren</a></li>
+              <li><a href="index.html#services">Prium melron</a></li>
+              <li><a href="index.html#services">Sutium</a></li>
+              <li><a href="index.html#services">Démoussage et entretien</a></li>
+              <li><a href="index.html#services">Homim bgd dosgt</a></li>
             </ul>
           </li>
-          <li><a href="galerie.php">Réalisations</a></li>
+          <li><a href="index.html#beforeAfter">Réalisations</a></li>
           <li><a href="index.html#portfolio">Galerie</a></li>
-          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="index.html#testimonials">FAQ</a></li>
           <li><a href="index.html#contact">Contact</a></li>
-          <li class="get-started"><a href="tel:+33686381114" ><i class="icofont-phone"></i> 514 839-0976 </a></li>
-          <li class="get-started"> <a class="btn-get-started" href="#"  id="myBtn2">Réserver maintenant</a>  </li>
+          <li class="get-started"><a href="tel:+33686381114"><i class="icofont-phone"></i> 514 839-0976 </a></li>
+          <li class="get-started"> <a class="btn-get-started" href="#" id="myBtn2">Réserver maintenant</a> </li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -201,24 +427,29 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  
+
   <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
+
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">
-            <h2 data-aos="fade-up" data-aos-delay="400"><b>Pro Esthétique</b> vous offre un service de lavage à la main de haute qualité, alliant soin et précision pour que votre véhicule retrouve son éclat. Faites confiance à nos experts pour un nettoyage impeccable et une expérience client exceptionnelle. </h2>
+            <h2 data-aos="fade-up" data-aos-delay="400"><b>Pro Esthétique</b> vous offre un service de lavage à la main
+              de haute qualité, alliant soin et précision pour que votre véhicule retrouve son éclat. Faites confiance à
+              nos experts pour un nettoyage impeccable et une expérience client exceptionnelle. </h2>
             <div data-aos="fade-up" data-aos-delay="800">
 
-          </div><div data-aos="fade-up" data-aos-delay="800">
-         <button onclick="location.href='tel:+33686381114';" class="glow-on-hover "   ><i class="icofont-plus"></i> Réservations en ligne </button>
-          </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="800">
+              <button onclick="location.href='tel:+33686381114';" class="glow-on-hover "><i class="icofont-plus"></i>
+                Réservations en ligne </button>
+            </div>
         </div>
         <!-- <div  class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200"><a href="#" id="myBtn"><img src="https://themes.muffingroup.com/be/carwash3/wp-content/uploads/2022/05/carwash3-book-pic1.webp" class="img-fluid animated" alt="Devis Gratuit Pro Esthétique"></a> -->
-       
-        </div>
+
       </div>
+    </div>
     </div>
 
   </section><!-- End Hero -->
@@ -237,128 +468,154 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
               <b>Pro Esthétique</b>
-              n'a cessé de s'améliorer au fil des années, tant au niveau du service que de la qualité de nos installations. Nous avons su nous adapter aux demandes croissantes de notre clientèle, et nous comprenons que les automobiles d'aujourd'hui nécessitent un entretien plus poussé en raison des nouveaux matériaux utilisés. Si vous aimez votre véhicule autant que nous, il est essentiel de le confier à des professionnels..
-</p>
-<!-- <ul>
-  <li><i class="ri-check-line"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-  <li><i class="ri-check-line"></i> Ut enim ad minim veniam, quis nostrud exercitation ullamco</li>
-  <li><i class="ri-check-line"></i> Duis aute irure dolor in reprehenderit in voluptate</li>
-  <li><i class="ri-check-line"></i> Excepteur sint occaecat cupidatat non proident</li>
-  <li><i class="ri-check-line"></i> Sunt in culpa qui officia deserunt mollit anim id est laborum</li>
-</ul> -->
-</div>
-<div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-<p>
-  <b>PRO ESTHÉTIQUE</b> vous offre un travail de qualité supérieure et une garantie de satisfaction à un prix imbattable. Le lavage auto à la main est la meilleure façon de nettoyer votre véhicule. 
-  Contrairement aux lave-autos automatiques qui utilisent des détergents et produits chimiques trop agressifs, notre méthode manuelle préserve l'intégrité de votre voiture. En effet, ces produits peuvent, avec le temps, éliminer complètement les couches de cire et ternir la peinture.
-  Nous utilisons des produits spécialement adaptés à votre véhicule pour préserver son esthétique. De plus, les lave-autos automatiques ne sèchent pas correctement les véhicules, causant des accumulations d’eau dans les moulures, les miroirs et les grilles. Confiez votre voiture à PRO ESTHÉTIQUE pour un soin méticuleux et un résultat impeccable.<br>
-  <!-- <cite><q><b>LOREM IPSUM DOLOR SIT AMET.</b></q><br></cite>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. -->
-</p>
-            <img  class="fade-in-right " src="https://themes.muffingroup.com/be/carwash3/wp-content/uploads/2022/05/carwash3-slider-pic2.webp" alt="maison Toit Pro Esthétique"></img>
-            <!--class="btn-learn-more">Learn More</a>-->
+              n'a cessé de s'améliorer au fil des années, tant au niveau du service que de la qualité de nos
+              installations. Nous avons su nous adapter aux demandes croissantes de notre clientèle, et nous comprenons
+              que les automobiles d'aujourd'hui nécessitent un entretien plus poussé en raison des nouveaux matériaux
+              utilisés. Si vous aimez votre véhicule autant que nous, il est essentiel de le confier à des
+              professionnels..
+            </p>
+            <ul>
+              <li><i class="ri-check-line"></i> Couverture en ardoises, tuiles plates et tuiles mécaniques</li>
+              <li><i class="ri-check-line"></i> Couverture métallique en zinc, cuivre, inox et aluminium</li>
+              <li><i class="ri-check-line"></i> Isolation, fenêtre de toit et entretien de toiture </li>
+			        <li><i class="ri-check-line"></i> Ornementation (épis, œil de bœuf, lucarnes) et décoration intérieure </li>
+              <li><i class="ri-check-line"></i> Démoussage de couverture </li>
+            </ul>
           </div>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <section  id="contact1" class="contact">
-              <div class="container">
-        
-                <div class="section-title" data-aos="fade-up">
-                  <h2>Devis Gratuit</h2>
-                </div>
-        
-                <div class="row">
-        
-               
-        
-                
-        
-                  <div class="col-lg-12 col-md-12" data-aos="fade-up" data-aos-delay="300">
-                    <form action="Dashboard/devisBack.php" method="POST" role="form" >
-                      <div class="php-email-form">
-                      <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom et Prenom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
-                        <div class="validate"></div>
-                      </div>
-                      <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail" data-rule="email" data-msg="Please enter a valid email" required/>
-                        <div class="validate"></div>
-                      </div>
-                      <div class="form-group">
-                        <input type="number" class="form-control" name="number" id="number" placeholder="Votre Numéro" data-rule="minlen:8" data-msg="Please enter a valid email" required />
-                        <div class="validate"></div>
-                      </div>
-                   
-
-
-                      <div class="form-group">
-                        <select class="form-select" name ="region" aria-label="Default select example" required>
-                          <option selected>Sélectionnez Votre Region</option>
-                          <option value="Essonne">91. Essonne</option>
-                          <option value="Montréal,Québec">  75. Montréal,Québec</option>
-                          <option value="Hauts-de-Seine">92. Hauts-de-Seine</option>
-                          <option value="Seine-et-Marne">77. Seine-et-Marne</option>
-                          <option value="Val-d'Oise">95. Val-d'Oise</option>
-                          <option value="Val-de-Marne">94. Val-de-Marne</option>
-                          <option value="Yvelines">78. Yvelines</option>
-                          </select>                          
-                        <div class="validate"></div>
-                      </div>
-
-
-
-                      <div class="form-group">
-                        <select class="form-select" name ="service" aria-label="Default select example" required>
-                          <option selected>Sélectionnez le service</option>
-                          <option value="Liden">Liden</option>
-                          <option value="Lorem">Lorem</option>
-                          <option value="Ipsum">Ipsum</option>
-                          <option value="Dolren">Dolren</option>
-                          <option value="prium melron">prium melron</option>
-                          <option value="Sutium">Sutium</option>
-                          <option value="Démoussage et entretien">Démoussage et entretien</option>
-                          <option value="Habillage de bandeaux">Habillage de bandeaux</option>
-                  
-                        </select>                          
-                        <div class="validate"></div>
-                      </div>
-                      <div class="form-group">
-                        <textarea class="form-control" name="message"  maxlength="79" rows="5" data-rule="required" data-msg="Veuillez ecrire votre message ..." placeholder="Message" required></textarea>
-                        <div class="validate"></div>
-                      </div>
-                      <div class="mb-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                      </div>
-                      <div class="text-center"><button type="submit" name="devis">Envoi du Message</button></div>
-                     </div>
-                    </form>
-                  </div>
-        
-                </div>
-        
-              </div>
-            </section><!-- End Contact Section -->
-        
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <b>PRO ESTHÉTIQUE</b> vous offre un travail de qualité supérieure et une garantie de satisfaction à un
+              prix imbattable. Le lavage auto à la main est la meilleure façon de nettoyer votre véhicule.
+              Contrairement aux lave-autos automatiques qui utilisent des détergents et produits chimiques trop
+              agressifs, notre méthode manuelle préserve l'intégrité de votre voiture. En effet, ces produits peuvent,
+              avec le temps, éliminer complètement les couches de cire et ternir la peinture.
+              Nous utilisons des produits spécialement adaptés à votre véhicule pour préserver son esthétique. De plus,
+              les lave-autos automatiques ne sèchent pas correctement les véhicules, causant des accumulations d’eau
+              dans les moulures, les miroirs et les grilles. Confiez votre voiture à PRO ESTHÉTIQUE pour un soin
+              méticuleux et un résultat impeccable.<br>
+            </p>
+            <div class="img-containr">
+          
+              <img  class="fade-in-right  "
+              style="width: 100%;"
+              src="https://themes.muffingroup.com/be/carwash3/wp-content/uploads/2022/05/carwash3-slider-pic2.webp"
+              alt="maison Toit Pro Esthétique"/>
+             
+            
           </div>
           
+          
+          </div>
+          
+   
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <section id="contact1" class="contact">
+                <div class="container">
+
+                  <div class="section-title" data-aos="fade-up">
+                    <h2>Devis Gratuit</h2>
+                  </div>
+
+                  <div class="row">
+
+
+
+
+
+                    <div class="col-lg-12 col-md-12" data-aos="fade-up" data-aos-delay="300">
+                      <form action="Dashboard/devisBack.php" method="POST" role="form">
+                        <div class="php-email-form">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name"
+                              placeholder="Votre Nom et Prenom" data-rule="minlen:4"
+                              data-msg="Please enter at least 4 chars" required />
+                            <div class="validate"></div>
+                          </div>
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail"
+                              data-rule="email" data-msg="Please enter a valid email" required />
+                            <div class="validate"></div>
+                          </div>
+                          <div class="form-group">
+                            <input type="number" class="form-control" name="number" id="number"
+                              placeholder="Votre Numéro" data-rule="minlen:8" data-msg="Please enter a valid email"
+                              required />
+                            <div class="validate"></div>
+                          </div>
+
+
+
+                          <div class="form-group">
+                            <select class="form-select" name="region" aria-label="Default select example" required>
+                              <option selected>Sélectionnez Votre Region</option>
+                              <option value="Essonne">91. Essonne</option>
+                              <option value="Montréal,Québec"> 75. Montréal,Québec</option>
+                              <option value="Hauts-de-Seine">92. Hauts-de-Seine</option>
+                              <option value="Seine-et-Marne">77. Seine-et-Marne</option>
+                              <option value="Val-d'Oise">95. Val-d'Oise</option>
+                              <option value="Val-de-Marne">94. Val-de-Marne</option>
+                              <option value="Yvelines">78. Yvelines</option>
+                            </select>
+                            <div class="validate"></div>
+                          </div>
+
+
+
+                          <div class="form-group">
+                            <select class="form-select" name="service" aria-label="Default select example" required>
+                              <option selected>Sélectionnez le service</option>
+                              <option value="Liden">Liden</option>
+                              <option value="Lorem">Lorem</option>
+                              <option value="Ipsum">Ipsum</option>
+                              <option value="Dolren">Dolren</option>
+                              <option value="prium melron">prium melron</option>
+                              <option value="Sutium">Sutium</option>
+                              <option value="Démoussage et entretien">Démoussage et entretien</option>
+                              <option value="Habillage de bandeaux">Habillage de bandeaux</option>
+
+                            </select>
+                            <div class="validate"></div>
+                          </div>
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" maxlength="79" rows="5" data-rule="required"
+                              data-msg="Veuillez ecrire votre message ..." placeholder="Message" required></textarea>
+                            <div class="validate"></div>
+                          </div>
+                          <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="text-center"><button type="submit" name="devis">Envoi du Message</button></div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+
+                </div>
+              </section><!-- End Contact Section -->
+
+            </div>
+
+          </div>
+
         </div>
-
-      </div>
     </section><!-- End About Us Section -->
-
+   
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <section id="counts" class="counts ">
       <div class="container">
 
         <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start " data-aos="fade-right" data-aos-delay="150">
-            <img src="https://img.freepik.com/free-vector/detailed-car-wash-service-concept-illustration_23-2149038681.jpg" alt="nombre client" class="img-fluid card-container card-image">
+          <div class="  card-container card-image cardback col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start "
+            data-aos="fade-right" data-aos-delay="150">
+            <img src="https://jungleworks.com/wp-content/uploads/2018/08/group-6-5-1.png" alt="nombre client" class="img-fluid ">
           </div>
 
           <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
@@ -388,7 +645,7 @@
                   </div>
                 </div>
 
-               
+
               </div>
             </div><!-- End .content-->
           </div>
@@ -397,131 +654,171 @@
       </div>
     </section><!-- End Counts Section -->
 
+
+
+
+
+
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          
+
         </div>
-    <!-- ======= More Services Section ======= -->
-    <section id="more-services" class="more-services">
-      <div class="container">
+        <!-- ======= More Services Section ======= -->
+        <section id="more-services" class="more-services">
+          <div class="container">
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card" style='background-image: url("assets/img/Charpente-fermett6.jpg");' data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title"><a href="Services/ServicesToit.html">LAVAGE DE VOITURE EXTÉRIEUR ET INTÉRIEUR</a></h5>
-                <p class="card-text">Notre service de lavage de voiture complet vous offre un nettoyage minutieux de l'extérieur et de l'intérieur de votre véhicule. Nous utilisons des produits de haute qualité pour éliminer la saleté, la poussière et les débris, laissant votre voiture propre et éclatante. L'extérieur est soigneusement lavé, rincé et séché pour un fini impeccable, tandis que l'intérieur est aspiré, dépoussiéré et désinfecté pour un espace frais et agréable..</p>
-                <div class="read-more"><a href="Services/ServicesToit.html"><i class="icofont-arrow-right"></i> Explorer</a></div>
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card" style='background-image: url("assets/img/Charpente-fermett6.jpg");' data-aos="fade-up"
+                  data-aos-delay="100">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">LAVAGE DE VOITURE EXTÉRIEUR ET
+                        INTÉRIEUR</a></h5>
+                    <p class="card-text">Notre service de lavage de voiture complet vous offre un nettoyage minutieux de
+                      l'extérieur et de l'intérieur de votre véhicule. Nous utilisons des produits de haute qualité pour
+                      éliminer la saleté, la poussière et les débris, laissant votre voiture propre et éclatante.
+                      L'extérieur est soigneusement lavé, rincé et séché pour un fini impeccable, tandis que l'intérieur
+                      est aspiré, dépoussiéré et désinfecté pour un espace frais et agréable..</p>
+                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>
+                        Explorer</a></div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card" style='background-image: url("assets/img/Piney-Orchard-Roofing-2.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="Services/ServicesRepar.html">CIRE & POLISSAGE</a></h5>
-                <p class="card-text">Une toiture endommagée? Du remplacement de tuiles à celui d’éléments de zinguerie, <b>Pro Esthétique</b> la répare !</p>
-                <div class="read-more"><a href="Services/ServicesRepar.html"><i class="icofont-arrow-right"></i> Explorer</a></div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="card" style='background-image: url("https://ghostcleaner.com/wp-content/uploads/2023/06/service-21.jpg");' data-aos="fade-up"
+                  data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">CIRE & POLISSAGE</a></h5>
+                    <p class="card-text">Une toiture endommagée? Du remplacement de tuiles à celui d’éléments de
+                      zinguerie, <b>Pro Esthétique</b> la répare !</p>
+                    <div class="read-more"><a href="##"><i class="icofont-arrow-right"></i>
+                        Explorer</a></div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("https://d1paea71iaqtmt.cloudfront.net/resources/services/rain-repellent-treatment-hero.jpg");' data-aos="fade-up"
+                  data-aos-delay="100">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">TRAITEMENT AQUAPEL ANTI-PLUIE</a></h5>
+                    <p class="card-text">La zinguerie est un domaine bien connu chez <b>Pro Esthétique</b> qui vous
+                      propose un travail de qualité, ainsi que la garantie d’un service professionnel et rigoureux.</p>
+                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>
+                        Explorer</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("assets/img/bluejpg07-1024x683.jpg");'
+                  data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">FORFAIT DE DÉTAILLAGE</a></h5>
+                    <p class="card-text">Faites confiance à <b>Pro Esthétique</b> pour une maison bien isolée! Une
+                      entreprise à votre écoute qui vous guidera afin de choisir l’isolant adéquat pour vous permettre
+                      de profiter d’une maison plus agréable et douillette !</p>
+                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>
+                        Explorer</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("assets/img/polissage.jpg");' data-aos="fade-up"
+                  data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">POLISSAGE DES PHARES</a></h5>
+                    <p class="card-text">Dommages causés par la tempête ? <br> À cause des aléas de la nature, la
+                      toiture est exposée à une dégradation en continu tout au long de sa durée de vie. Il est important
+                      de prendre très tôt des dispositions pour assurer sa durabilité et votre confort.<br><b>Pro
+                        Esthétique</b> de réparation de toit et dépannage rapide vous propose ses services.</p>
+                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>
+                        Explorer</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("assets/img/shutterstock_2241164341.jpg");' data-aos="fade-up"
+                  data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title">SHAMPOOING INTÉRIEUR</h5>
+                    <p class="card-text">Pour un bâtiment bien étanche, rien de mieux que le bardage! <b>Pro
+                        Esthétique</b> vous l’effectue avec la plus grande attention afin de protéger et d’isoler
+                      correctement vos murs!</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("https://cdn-s-www.ledauphine.com/images/7D62882F-9DBF-4D56-A23E-C2C4BEA65310/NW_raw/la-premiere-etape-consiste-a-appliquer-le-processus-de-pre-lavage-lavage-mais-cela-ne-suffira-pas-a-decontaminer-votre-carrosserie-photo-by-clement-m-on-unsplash-1614069746.jpg");' data-aos="fade-up"
+                  data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title">DÉCONTAMINATION DE LA CARROSSERIE</h5>
+                    <p class="card-text">Vos tuiles sont couvertes de mousse et s’abîment par les conditions
+                      climatiques? N’attendez pas; <b>Pro Esthétique</b> traite, nettoie et hydrofuge vos toitures !</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("assets/img/Using-An-Orbital-Polisher.jpeg");' data-aos="fade-up"
+                  data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title"><a>COMPOUND ET POLISSAGE</a></h5>
+                    <p class="card-text">Vous désirez rénover vos bandeaux et votre sous-face actuelle? <br><b>Pro
+                        Esthétique</b> vous effectue la pose de votre frisette en bois ou en PVC selon vos envies !</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card" style='background-image: url("assets/img/platinum.jpeg");' data-aos="fade-up"
+                  data-aos-delay="200">
+                  <div class="card-body">
+                    <h5 class="card-title"><a>TRAITEMENT NANO CÉRAMIQUE</a></h5>
+                    <p class="card-text">Vous désirez rénover vos bandeaux et votre sous-face actuelle? <br><b>Pro
+                        Esthétique</b> vous effectue la pose de votre frisette en bois ou en PVC selon vos envies !</p>
+
+                  </div>
+                </div>
               </div>
             </div>
 
           </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/Zinguerie2.jpg");' data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title"><a href="Services/ServicesZing.html">TRAITEMENT AQUAPEL ANTI-PLUIE</a></h5>
-                <p class="card-text">La zinguerie est un domaine bien connu chez <b>Pro Esthétique</b> qui vous propose un travail de qualité, ainsi que la garantie d’un service professionnel et rigoureux.</p>
-                <div class="read-more"><a href="Services/ServicesZing.html"><i class="icofont-arrow-right"></i> Explorer</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/intérieur-toiture-isolée.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="Services/ServicesIsola.html">FORFAIT DE DÉTAILLAGE</a></h5>
-                <p class="card-text">Faites confiance à <b>Pro Esthétique</b> pour une maison bien isolée! Une entreprise à votre écoute qui vous guidera afin de choisir l’isolant adéquat pour vous permettre de profiter d’une maison plus agréable et douillette !</p>
-                <div class="read-more"><a href="Services/ServicesIsola.html"><i class="icofont-arrow-right"></i> Explorer</a></div>
-              </div>
-            </div>
-          </div>
-		   <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/9e20ff_cb2c0060775f469899820a6ec1370a73_mv2.webp");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="Services/ServicesRepar.html">POLISSAGE DES PHARES</a></h5>
-                <p class="card-text">Dommages causés par la tempête  ? <br> À cause des aléas de la nature, la toiture est exposée à une dégradation en continu tout au long de sa durée de vie. Il est important de prendre très tôt des dispositions pour assurer sa durabilité et votre confort.<br><b>Pro Esthétique</b> de réparation de toit et dépannage rapide vous propose ses services.</p>
-                <div class="read-more"><a href="Services/ServicesRepar.html"><i class="icofont-arrow-right"></i> Explorer</a></div>
-              </div>
-            </div>
-          </div>
-		   <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/bar.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title">SHAMPOOING INTÉRIEUR</h5>
-                <p class="card-text">Pour un bâtiment bien étanche, rien de mieux que le bardage! <b>Pro Esthétique</b> vous l’effectue avec la plus grande attention afin de protéger et d’isoler correctement vos murs!</p>
-                
-              </div>
-            </div>
-          </div>
-		   <div class="col-md-6 d-flex align-items-stretch mt-4"> 
-            <div class="card" style='background-image: url("assets/img/demoussage-toiture.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title">DÉCONTAMINATION DE LA CARROSSERIE</h5>
-                <p class="card-text">Vos tuiles sont couvertes de mousse et s’abîment par les conditions climatiques? N’attendez pas; <b>Pro Esthétique</b> traite, nettoie et hydrofuge vos toitures !</p>
-                
-              </div>
-            </div>
-          </div>
-		  <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/habillage-bandeaux.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a>COMPOUND ET POLISSAGE</a></h5>
-                <p class="card-text">Vous désirez rénover vos bandeaux et votre sous-face actuelle?  <br><b>Pro Esthétique</b> vous effectue la pose de votre frisette en bois ou en PVC selon vos envies !</p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/habillage-bandeaux.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a>TRAITEMENT NANO CÉRAMIQUE</a></h5>
-                <p class="card-text">Vous désirez rénover vos bandeaux et votre sous-face actuelle?  <br><b>Pro Esthétique</b> vous effectue la pose de votre frisette en bois ou en PVC selon vos envies !</p>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-
+        </section><!-- End More Services Section -->
       </div>
-    </section><!-- End More Services Section -->
-	 </div>
     </section><!-- End Services Section -->
 
-   
 
+
+ 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
           <h2>Témoignages</h2>
-          <p>Un client qui parle de son expérience avec vous vaut dix fois ce que vous écrivez ou dites sur vous-même.</p>
+          <p>Un client qui parle de son expérience avec vous vaut dix fois ce que vous écrivez ou dites sur vous-même.
+          </p>
         </div>
 
         <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="200">
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-03.jpg" class="testimonial-img" alt="Témoignages Pro Esthétique">
+              <img src="assets/img/testimonials/testimonials-03.jpg" class="testimonial-img"
+                alt="Témoignages Pro Esthétique">
               <h3>Fabien Karlis</h3>
               <!-- <h4>Store Owner</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                 Superbe équipe, travail rapide et efficace, finitions soignées, le top
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-               
+
               </p>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
@@ -534,12 +831,14 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-01.jpg" class="testimonial-img" alt="Témoignages Pro Esthétique">
+              <img src="assets/img/testimonials/testimonials-01.jpg" class="testimonial-img"
+                alt="Témoignages Pro Esthétique">
               <h3>Reem Mahrez</h3>
               <!-- <h4>Ceo &amp; Founder</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Très bonne entreprise travail soyeux une équipe sympathique et très professionnelle.. Je recommande très bon rapport qualité prix.                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                Très bonne entreprise travail soyeux une équipe sympathique et très professionnelle.. Je recommande très
+                bon rapport qualité prix. <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
@@ -549,19 +848,21 @@
             </div>
           </div>
 
-         
-         
+
+
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-04.jpg" class="testimonial-img" alt="Témoignages Pro Esthétique">
+              <img src="assets/img/testimonials/testimonials-04.jpg" class="testimonial-img"
+                alt="Témoignages Pro Esthétique">
               <h3>Matt Brandon</h3>
               <!-- <h4>Freelancer</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Travail remarquableÉquipe compétenteRespectueux de l’environnement les dirigeants cherche toujour la meilleure solution...À recommander sans hésiter
+                Travail remarquableÉquipe compétenteRespectueux de l’environnement les dirigeants cherche toujour la
+                meilleure solution...À recommander sans hésiter
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                
+
               </p>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
@@ -573,14 +874,16 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-02.jpg" class="testimonial-img" alt="Témoignages Pro Esthétique">
+              <img src="assets/img/testimonials/testimonials-02.jpg" class="testimonial-img"
+                alt="Témoignages Pro Esthétique">
               <h3>Mouhamed Ali Bakkar</h3>
               <!-- <h4>Designer</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Artisan à l'écoute de sa clientèle, il a su répondre à mes attentes concernant le changement de toiture de mon logement. J'ai été tellement satisfaite du professionnalisme et du rapport qualité/prix!
+                Artisan à l'écoute de sa clientèle, il a su répondre à mes attentes concernant le changement de toiture
+                de mon logement. J'ai été tellement satisfaite du professionnalisme et du rapport qualité/prix!
 
-                
+
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <span class="fa fa-star checked"></span>
@@ -594,12 +897,15 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-05.jpg" class="testimonial-img" alt="Témoignages Pro Esthétique">
+              <img src="assets/img/testimonials/testimonials-05.jpg" class="testimonial-img"
+                alt="Témoignages Pro Esthétique">
               <h3>Mariem BelHadj</h3>
               <!-- <h4>Entrepreneur</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Excellent travail équipe compétente, garçons discret et très polis. Je suis très satisfait d'avoir choisi cette entreprise pour mes travaux. à recommander sans hésiter                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                Excellent travail équipe compétente, garçons discret et très polis. Je suis très satisfait d'avoir
+                choisi cette entreprise pour mes travaux. à recommander sans hésiter <i
+                  class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
@@ -613,7 +919,65 @@
 
       </div>
     </section><!-- End Testimonials Section -->
-
+    <section id="beforeAfter" style="background-color: #19191be8;">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="color: white;">Aprés / Avant</h2>
+        </div>
+        <div class="flex-row">
+          <div style="width: 30%; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: start;">
+            <div data-aos="fade-up">
+              <h1 id="slide-title" style="color: white; font-weight: bold; font-size: 32px;">Rénov'Auto</h1>
+            </div>
+            <div>
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <div class="slider-container">
+                <div style="background-image: url('https://lavageautoparis.com/wp-content/uploads/2018/02/After_03.jpg');" class="image-x after img-fluid"></div>
+                <div style="background-image: url('https://lavageautoparis.com/wp-content/uploads/2018/02/Before_03.jpg');" class="image-x before img-fluid"></div>
+                <div class="slider">
+                  <div class="handle"><i class="icofont-rounded-left"></i><i class="icofont-rounded-right"></i></div>
+                </div>
+              </div>
+              <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <div class="slider-container">
+                <div style="background-image: url('https://lavageautoparis.com/wp-content/uploads/2018/02/After_01.jpg');" class="image-x after img-fluid"></div>
+                <div style="background-image: url('https://lavageautoparis.com/wp-content/uploads/2018/02/Before_01.jpg');" class="image-x before img-fluid"></div>
+                <div class="slider">
+                  <div class="handle"><i class="icofont-rounded-left"></i><i class="icofont-rounded-right"></i></div>
+                </div>
+              </div>
+              <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <div class="slider-container">
+                <div style="background-image: url('https://lavageautoparis.com/wp-content/uploads/2018/02/After_04.jpg');" class="image-x after img-fluid"></div>
+                <div style="background-image: url('https://lavageautoparis.com/wp-content/uploads/2018/02/Before_04.jpg');" class="image-x before img-fluid"></div>
+                <div class="slider">
+                  <div class="handle"><i class="icofont-rounded-left"></i><i class="icofont-rounded-right"></i></div>
+                </div>
+              </div>
+              <div class="text"></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </section>
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
@@ -622,48 +986,25 @@
           <h2>Galerie</h2>
         </div>
 
-        <!-- <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Tout</li>
-              <li data-filter=".filter-app">Ipsum</li>
-              <li data-filter=".filter-web">Liden</li>
-              <li data-filter=".filter-card">Dolren</li>
-            </ul>
-          </div>
-        </div> -->
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/car1.jpg" class="img-fluid" alt="Zinguerie_Montréal,Québec Pro Esthétique">
+              <img src="assets/img/car14.jpg" class="img-fluid" alt="charpentes Pro Esthétique ">
               <div class="portfolio-info">
-                <h4>Ipsum</h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/car1.jpg" data-gall="portfolioGallery" class="venobox" title="zinguerie"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesZing.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+                <h4>Chapente</h4>
 
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car2.jpg" class="img-fluid" alt="Liden Pro Esthétique">
-              <div class="portfolio-info">
-                <h4>Liden</h4>
-               
                 <div class="portfolio-links">
-                  <a href="assets/img/car2.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car14.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesToit.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+
+
+       
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
@@ -672,7 +1013,8 @@
                 <h4>Ipsum</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/car3.jpg" data-gall="portfolioGallery" class="venobox" title="Ipsum"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car3.jpg" data-gall="portfolioGallery" class="venobox" title="Ipsum"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesZing.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -684,108 +1026,27 @@
               <img src="assets/img/car4.jpg" class="img-fluid" alt="Service isolation toit Pro Esthétique">
               <div class="portfolio-info">
                 <h4>Dolren</h4>
-                
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesIsola.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car5.jpg" class="img-fluid" alt="Liden travaux Pro Esthétique">
-              <div class="portfolio-info">
-                <h4>Liden</h4>
-               
-                <div class="portfolio-links">
-                  <a href="assets/img/car5.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesToit.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car6.jpg" class="img-fluid" alt="fenêtre toit Pro Esthétique">
-              <div class="portfolio-info">
-                <h4>Ipsum</h4>
-               
-                <div class="portfolio-links">
-                  <a href="assets/img/car6.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesZing.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
           
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ToitureT1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Liden</h4>
-               
-                <div class="portfolio-links">
-                  <a href="assets/img/ToitureT1.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesToit.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car7.jpg" class="img-fluid" alt="Service Ipsum Pro Esthétique">
-              <div class="portfolio-info">
-                <h4>Ipsum</h4>
-                
-                <div class="portfolio-links">
-                  <a href="assets/img/car7.jpg" data-gall="portfolioGallery" class="venobox" ><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesZing.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-         
-          <div class="col-lg-4 col-md-6 portfolio-item *">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car8.jpg" class="img-fluid" alt="Pose Velux Pro Esthétique">
-              <div class="portfolio-info">
-                <h4>Pose Velux</h4>
-               
-                <div class="portfolio-links">
-                  <a href="assets/img/toiture-à-Montréal,Québec-e1609864232129.webp" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesPose.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car9.jpg" class="img-fluid" alt="Liden Tuile Pro Esthétique">
-              <div class="portfolio-info">
-                <h4>Liden</h4>
-               
-                <div class="portfolio-links">
-                  <a href="assets/img/car9.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesToit.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/car10.jpg" class="img-fluid" alt="Dolren des combles Pro Esthétique">
               <div class="portfolio-info">
                 <h4>Dolren</h4>
-                
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car10.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car10.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesIsola.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -796,64 +1057,56 @@
               <img src="assets/img/car11.jpg" class="img-fluid" alt="Service Sutium Pro Esthétique">
               <div class="portfolio-info">
                 <h4>Sutium</h4>
-               
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car11.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car11.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="bx bx-plus"></i></a>
                   <a title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/car12.jpg" class="img-fluid" alt="Toit Zinc Global Couvrerture">
               <div class="portfolio-info">
                 <h4>Ipsum</h4>
-                
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car12.jpg" data-gall="portfolioGallery" class="venobox" ><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car12.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesZing.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/car13.jpg" class="img-fluid" alt="Dolren Pro Esthétique">
               <div class="portfolio-info">
                 <h4>Dolren</h4>
-                
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car13.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car13.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesIsola.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item *">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car14.jpg" class="img-fluid" alt="charpentes Pro Esthétique ">
-              <div class="portfolio-info">
-                <h4>Chapente</h4>
-               
-                <div class="portfolio-links">
-                  <a href="assets/img/car14.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesToit.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+         
           <div class="col-lg-4 col-md-6 portfolio-item *">
             <div class="portfolio-wrap">
               <img src="assets/img/car15.jpg" class="img-fluid" alt="Service Sutium Pro Esthétique">
               <div class="portfolio-info">
                 <h4>Sutium</h4>
-               
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car15.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
-                  <a  title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/car15.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="bx bx-plus"></i></a>
+                  <a title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -863,110 +1116,99 @@
               <img src="assets/img/car16.jpg" class="img-fluid" alt="travaux toit Pro Esthétique">
               <div class="portfolio-info">
                 <h4>Liden</h4>
-               
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car16.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car16.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="bx bx-plus"></i></a>
                   <a href="Services/ServicesToit.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-        
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/car17.jpg" class="img-fluid" alt="Dolren Pro Esthétique Montréal,Québec">
-              <div class="portfolio-info">
-                <h4>Dolren</h4>
-                
-                <div class="portfolio-links">
-                  <a href="assets/img/car17.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="Services/ServicesIsola.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+
+     
           <div class="col-lg-4 col-md-6 portfolio-item *">
             <div class="portfolio-wrap">
               <img src="assets/img/car18.jpg" class="img-fluid" alt="habillage-bandeaux Pro Esthétique">
               <div class="portfolio-info">
                 <h4>habillage-bandeaux</h4>
-               
+
                 <div class="portfolio-links">
-                  <a href="assets/img/car18.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/car18.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="bx bx-plus"></i></a>
                   <a href="index.html#portfolio" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          
+
 
         </div>
 
       </div>
     </section><!-- End Portfolio Section -->
+  
 
-    
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <section id="pricing" class="pricingSection" style="  background-color: #eff3f6;">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
           <h2>LISTE DE PRIX</h2>
         </div>
-        <table>
-          <!-- <caption>NOS TARIFS</caption> -->
-          <thead>
-            <tr>
-              <th class="one" ></th>
-              <th>EXT. ou INT.</th>
-              <th>EXT/INT</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td >Automobile</td>
-              <td><span>10$</span></td>
-              <td><span>16$</span></td>
-            </tr>
-            <tr>
-              <td >Petit VUS</td>
-              <td><span>15$</span></td>
-              <td><span>20$</span></td>
-            </tr>
-            <tr>
-              <td >Gros VUS</td>
-              <td><span>18$</span></td>
-              <td><span>24$</span></td>
-            </tr>
-            <tr>
-              <td >Pick Up</td>
-              <td><span>20$</span></td>
-              <td><span>30$</span></td>
-            </tr>
-            <tr>
-              <td >6 Roues/Fourgonnette</td>
-              <td><span>25$</span></td>
-              <td><span>45$</span></td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="7" align="right"> NB : Des extras peuvent être appliqué  pour les véhicule très sale.</td>
-            </tr>
-          </tfoot>
-        </table>
+        <div class="sectionX-P over-hide">
+          <div class="container">
+            <div class="sectionX-P text-center py-5 py-md-0">
+              <div class="pricing-options">
+                <button class="pricing-btn active" data-option="kayaking">Automobile</button>
+                <button class="pricing-btn" data-option="camping">Petit VUS</button>
+                <button class="pricing-btn" data-option="randone">Gros VUS</button>
+                <button class="pricing-btn" data-option="nomad">Pick Up</button>
+                <button class="pricing-btn" data-option="nomadX">Fourgonnette</button>
+                <button class="pricing-btnn"></button>
+                <div class="slider-a"></div>
+              </div>
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="pricing-wrap" id="x1">
+                      <h4 class="mb-5" id="activity-title">Automobile</h4>
+                      <h2 class="mb-2" id="price"><sup>$</sup>10 / 16<sup>$</sup></h2>
+                      <p class="mb-4">EXT. ou INT / EXT & INT</p>
+                      <p class="mb-1"><i class="uil uil-location-pin-alt size-22"></i></p>
+                      <p class="mb-4" id="location">Repentigny,Québec</p>
+                      <a href="#0" class="link">Choose Date</a>
+                      <div class="img-wrap img-2" id="background-img">
+                        <img src="https://assets.codepen.io/1462889/sea.png" alt="">
+                      </div>
+                      <div class="img-wrap img-1" id="activity-img">
+                        <img src="https://resource.digitaldealer.com.au/image/608286435656981d909347209043577_0_0.png" alt="">
+                      </div>
+                      <div class="img-wrap img-3">
+                        <img src="https://assets.codepen.io/1462889/water.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        
-       
+
+
 
       </div>
+
+      
+      
     </section><!-- End F.A.Q Section -->
-        
-          
-          
-        </div>
-      </section>
-        
+
+
+
+    </div>
+    </section>
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -980,70 +1222,85 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
               <h3><b>Pro Esthétique</b></h3>
-              <p>Notre lave-auto vous offre le meilleur service et la meilleure qualité pour tous vos besoins automobiles. 
-                Venez nous rendre visite et nous vous garantissons que vous repartirez avec un sourire. 
-                </p>
+              <p>Notre lave-auto vous offre le meilleur service et la meilleure qualité pour tous vos besoins
+                automobiles.
+                Venez nous rendre visite et nous vous garantissons que vous repartirez avec un sourire.
+              </p>
               <div class="social-links">
-                <a href="https://www.twiter.com"  target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="https://www.instagram.com"  target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="https://www.linkedin.com"  target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
-                
+                <a href="https://www.twiter.com" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="facebook"><i
+                    class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="instagram"><i
+                    class="icofont-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
+
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.709759758304!2d-73.48437232338094!3d45.756964313856834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8e6157b277be7%3A0x6d02971b519dd3d3!2s15%20Rue%20Salomon%20Juneau%2C%20Repentigny%2C%20QC%20J5Z%204Z1!5e0!3m2!1sen!2sca!4v1720556596265!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.709759758304!2d-73.48437232338094!3d45.756964313856834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8e6157b277be7%3A0x6d02971b519dd3d3!2s15%20Rue%20Salomon%20Juneau%2C%20Repentigny%2C%20QC%20J5Z%204Z1!5e0!3m2!1sen!2sca!4v1720556596265!5m2!1sen!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="info">
               <div>
-               <a href="https://goo.gl/maps/cFWNZwMnwJmqAQAf9" target="_blank"> <i class="ri-map-pin-line"></i>
-                <!-- 15 Rue Salomon Juneau, Repentigny, QC J5Z 4Z1 -->
-                <p>15 Rue Salomon Juneau,<br>Repentigny, QC J5Z 4Z1</p></a>
+                <a href="https://goo.gl/maps/cFWNZwMnwJmqAQAf9" target="_blank"> <i class="ri-map-pin-line"></i>
+                  <!-- 15 Rue Salomon Juneau, Repentigny, QC J5Z 4Z1 -->
+                  <p>15 Rue Salomon Juneau,<br>Repentigny, QC J5Z 4Z1</p>
+                </a>
               </div>
 
               <div>
                 <a href="mailto:morsadi2010@hotmail.com"><i class="ri-mail-send-line"></i>
-                <p>morsadi2010@hotmail.com</p></a>
+                  <p>morsadi2010@hotmail.com</p>
+                </a>
               </div>
 
               <div><a href="tel:+33686381114">
-                <i class="ri-phone-line"></i>
-                <p>514 839-0976</p></a>
+                  <i class="ri-phone-line"></i>
+                  <p>514 839-0976</p>
+                </a>
               </div>
 
             </div>
           </div>
 
           <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="Dashboard/contacter.php" method="POST" role="form" >
+            <form action="Dashboard/contacter.php" method="POST" role="form">
               <div class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom et prenom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
-                <div class="validate"></div>
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom et prenom"
+                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail"
+                    data-rule="email" data-msg="Please enter a valid email" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" name="number" id="email" placeholder="Votre numero"
+                    data-rule="minlen:6" data-msg="Please enter a valid email" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet"
+                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="Veuillez ecrire quelques chose" placeholder="Message" required></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit" name="contacter">Envoi du Message</button></div>
               </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail" data-rule="email" data-msg="Please enter a valid email"required />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="number" class="form-control" name="number" id="email" placeholder="Votre numero" data-rule="minlen:6" data-msg="Please enter a valid email"required />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"required />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Veuillez ecrire quelques chose" placeholder="Message" required></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit" name="contacter">Envoi du Message</button></div>
-            </div>
             </form>
 
           </div>
@@ -1075,10 +1332,11 @@
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
             <a href="index.html#intro" class="scrollto">Home</a>
             <a href="index.html#about" class="scrollto">About</a>
-        
+
           </nav>
         </div>
       </div>
+
     </div>
   </footer><!-- End Footer -->
 
@@ -1099,79 +1357,297 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
-document.addEventListener('DOMContentLoaded', function() {
-    let lastScrollY = window.scrollY;
+    document.addEventListener('DOMContentLoaded', function () {
+      let lastScrollY = window.scrollY;
+      const elements = document.querySelectorAll('.fade-in-right');
 
-    const elements = document.querySelectorAll('.fade-in-right');
-
-    const handleScroll = () => {
+      const handleScroll = () => {
         elements.forEach(element => {
-            const rect = element.getBoundingClientRect();
-            const inView = rect.top < window.innerHeight && rect.bottom > 0;
+          const rect = element.getBoundingClientRect();
+          const inView = rect.top < window.innerHeight && rect.bottom > 0;
 
-            if (inView) {
-                if (window.scrollY > lastScrollY) {
-                    // Scrolling down
-                    element.classList.add('visible');
-                    element.classList.remove('invisibla');
-                } else {
-                    // Scrolling up
-                    element.classList.add('invisibla');
-                    element.classList.remove('visible');
-                }
+          if (inView) {
+            if (window.scrollY < lastScrollY) {
+              // Scrolling down
+              element.classList.add('visible');
+              element.classList.remove('invisibla');
+            } else {
+              // Scrolling up
+              element.classList.add('invisibla');
+              element.classList.remove('visible');
             }
+          }
         });
 
         lastScrollY = window.scrollY;
-    };
+      };
 
-    window.addEventListener('scroll', handleScroll);
-    handleScroll();  // Trigger the scroll handler on load
-});
+      window.addEventListener('scroll', handleScroll);
+      handleScroll();  // Trigger the scroll handler on load
+    });
 
+    // Smooth scroll functionality
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   </script>
+
   <script>
     // Get the modal
     var modal = document.getElementById("myModal");
-    
+
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
-    var btn1= document.getElementById("myBtn1");
-    var btn2= document.getElementById("myBtn2");
+    var btn1 = document.getElementById("myBtn1");
+    var btn2 = document.getElementById("myBtn2");
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
     var span1 = document.getElementsByClassName("close")[0];
     var span2 = document.getElementsByClassName("close")[0];
-    
+
     // When the user clicks the button, open the modal 
-    btn.onclick = function() {
+    btn.onclick = function () {
       modal.style.display = "block";
     }
-    btn1.onclick = function() {
+    btn1.onclick = function () {
       modal.style.display = "block";
     }
-    btn2.onclick = function() {
+    btn2.onclick = function () {
       modal.style.display = "block";
     }
-    
+
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
+    span.onclick = function () {
       modal.style.display = "none";
     }
-    span1.onclick = function() {
+    span1.onclick = function () {
       modal.style.display = "none";
     }
-    span2.onclick = function() {
+    span2.onclick = function () {
       modal.style.display = "none";
     }
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
+    window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
     }
+  </script>
+  <script>
+    // const slider = document.querySelector('.slider');
+    // console.log("🚀 ~ slider:", slider)
+    // const beforeImage = document.querySelector('.image-x.before');
+    // console.log("🚀 ~ beforeImage:", beforeImage)
+    // let isDragging = false;
+
+    // slider.addEventListener('mousedown', () => {
+    //   isDragging = true;
+    // });
+
+    // window.addEventListener('mouseup', () => {
+    //   isDragging = false;
+    // });
+
+    // window.addEventListener('mousemove', (e) => {
+    //   if (!isDragging) return;
+    //   const container = document.querySelector('.slider-container');
+    //   console.log("🚀 ~ window.addEventListener ~ container:", container)
+    //   const rect = container.getBoundingClientRect();
+    //   const offsetX = e.clientX - rect.left;
+    //   const percentage = offsetX / rect.width * 100;
+    //   if (percentage < 0 || percentage > 100) return;
+    //   slider.style.left = `${percentage}%`;
+    //   beforeImage.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
+    // });
+  </script>
+    <script>
+      const pricingData = {
+        kayaking: {
+          title: "Automobile",
+          price: "<sup>$</sup> 10 / 16 <sup>$</sup>",
+          location: "Repentigny,Québec",
+          backgroundImg: "https://assets.codepen.io/1462889/sea.png",
+          activityImg: "https://resource.digitaldealer.com.au/image/608286435656981d909347209043577_0_0.png",
+        },
+        camping: {
+          title: "Petit VUS",
+          price: "<sup>$</sup> 15 / 20 <sup>$</sup>",
+          location: "Repentigny,Québec",
+          backgroundImg: "https://assets.codepen.io/1462889/sea.png",
+          activityImg: "https://s7d1.scene7.com/is/image/hyundai/2024-kona-ev-limited-fwd-meta-blue-pearl-001:Vehicle-Carousel?fmt=webp-alpha&qlt=80,0",
+        },
+        randone: {
+          title: "Gros VUS",
+          price: "<sup>$</sup> 18 / 24 <sup>$</sup>",
+          location: "Repentigny,Québec",
+          backgroundImg: "https://assets.codepen.io/1462889/sea.png",
+          activityImg: "https://www.cadillac.com/content/dam/cadillac/na/us/english/index/vehicles/2024/crossover-suvs/escalade/jellies/vehicles-suvs-24-escalade.png?imwidth=960",
+        },
+        nomad: {
+          title: "Pick Up",
+          price: "<sup>$</sup> 20 / 30 <sup>$</sup>",
+          location: "Repentigny,Québec",
+          backgroundImg: "https://assets.codepen.io/1462889/grass.png",
+          activityImg: "https://build.ford.com/dig/Ford/Ranger/2024/HD-TILE/Image%5B%7CFord%7CRanger%7C2024%7C1%7C1.%7C800A...PDB..882.89H.17C.53R.CAB.64X.4WD.X73.99R.DCS.67X.RAP.%5D/EXT/1/vehicle.png",
+        },
+        nomadX: {
+          title: "6 Roues/ Fourgonnette",
+          price: "<sup>$</sup> 25 / 45 <sup>$</sup>",
+          location: "Repentigny,Québec",
+          backgroundImg: "https://assets.codepen.io/1462889/sea.png",
+          activityImg: "https://assets.volkswagen.com/is/image/volkswagenag/vwnit-caravelle61-34?Zml0PWNyb3AsMSZmbXQ9d2VicC1hbHBoYSZxbHQ9Nzkmd2lkPTgwMCZiZmM9b2ZmJjU0MDQ=",
+        }
+      };
+    
+      const buttons = document.querySelectorAll('.pricing-btn');
+      const slider = document.querySelector('.slider');
+      const card = document.querySelector('.card-3d-wrap');
+      const titleElement = document.getElementById('activity-title');
+      const priceElement = document.getElementById('price');
+      const locationElement = document.getElementById('location');
+      const backgroundImgElement = document.getElementById('background-img');
+      const activityImgElement = document.getElementById('activity-img');
+      const x = document.getElementById('x1');
+    
+      const updateSliderPosition = (activeButton) => {
+        const index = Array.from(buttons).indexOf(activeButton);
+        slider.style.transform = `translateX(${index * 100}%)`;
+      };
+    
+      buttons.forEach(button => {
+        button.addEventListener('click', (event) => {
+          const option = event.target.getAttribute('data-option');
+          const data = pricingData[option];
+    
+          // Remove active class from all buttons and add to the clicked button
+          buttons.forEach(btn => btn.classList.remove('active'));
+          event.target.classList.add('active');
+    
+          // Update slider position
+          updateSliderPosition(event.target);
+    
+          // Apply rotate-out animation
+          card.classList.add('rotate-out');
+    
+          // After the rotate-out animation, update the content and apply rotate-in animation
+          setTimeout(() => {
+            // Update content
+            titleElement.textContent = data.title;
+            priceElement.innerHTML = data.price;
+            locationElement.textContent = data.location;
+            backgroundImgElement.children.item(0).src = data.backgroundImg;
+            activityImgElement.children.item(0).src = data.activityImg;
+    
+            // Remove rotate-out animation and apply rotate-in animation
+            card.classList.remove('rotate-out');
+            card.classList.add('rotate-in');
+    
+            // Remove rotate-in animation after it completes
+            setTimeout(() => {
+              card.classList.remove('rotate-in');
+            }, 600); // Match the duration of the rotateIn animation
+          }, 600); // Match the duration of the rotateOut animation
+        });
+      });
+    
+      // Initialize slider position
+      updateSliderPosition(document.querySelector('.pricing-btn.active'));
     </script>
+    
+          <script>
+           let slideIndex = 1;
+const titles = [
+  "Rénov'Auto",
+  "Suppression des traces persistantes",
+  "Nettoyage en profondeur du tapis de coffre",
+];
+
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "contents";
+  dots[slideIndex - 1].className += " active";
   
+  // Update the title based on the current slide
+  document.getElementById("slide-title").textContent = titles[slideIndex - 1];
+  AOS.refresh();
+  // Reattach event listeners for the current slide
+  attachSliderListeners();
+}
+
+function attachSliderListeners() {
+  const slider = document.querySelector('.mySlides[style="display: contents;"] .slider');
+  const beforeImage = document.querySelector('.mySlides[style="display: contents;"] .image-x.before');
+  let isDragging = false;
+
+  // Mouse event listeners
+  slider.addEventListener('mousedown', () => {
+    isDragging = true;
+  });
+
+  window.addEventListener('mouseup', () => {
+    isDragging = false;
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    handleMove(e.clientX);
+  });
+
+  // Touch event listeners
+  slider.addEventListener('touchstart', () => {
+    isDragging = true;
+  });
+
+  window.addEventListener('touchend', () => {
+    isDragging = false;
+  });
+
+  window.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    handleMove(e.touches[0].clientX);
+  });
+
+  function handleMove(clientX) {
+    const container = slider.closest('.slider-container');
+    const rect = container.getBoundingClientRect();
+    const offsetX = clientX - rect.left;
+    const percentage = offsetX / rect.width * 100;
+    if (percentage < 0 || percentage > 100) return;
+    slider.style.left = `${percentage}%`;
+    beforeImage.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
+  }
+}
+
+AOS.init();
+
+// Initialize event listeners for the first slide
+attachSliderListeners();
+
+          </script>
+          
+          
+
 </body>
 
 </html>
